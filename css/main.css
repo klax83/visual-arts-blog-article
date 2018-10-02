@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+nav {
+	margin: 0 1%;
+	padding: 1% 5%;
+	font-size: 16px;
+	height: 24px;
+}
+nav a {
+	text-decoration: none;
+	color: #464646;
+	font-weight: bold;
+}
+nav input {
+	border: none;
+}
+nav div {
+	display: inline-block;
+}
+header {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+header img {
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+}
+header p {
+	font-size: 16px;
+	margin: 3% 0;
+}
+header h1 {
+	font-size: 60px;
+	letter-spacing: -1px;
+	font-family: 'Lora', serif;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+	margin: 1% 0;
+}
+header h2 {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 5% 0 3%;
+}
+hr {
+	border: 2px solid #c79852;
+	margin: 3% auto;
+	width: 7%;
+}
+main {
+	padding-bottom: 20px;
+}
+main div {
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+main div p {
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0 15%;
+	margin: 3% 0;
+	text-align: left;
+}
+.personalquote {
+	font-family: 'Petit Formal Script', cursive;
+	font-weight: 700;
+	line-height: 36px;
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+	padding: 0 15%;
+	font-size: 24px;
+}
+.personalquote span {
+	font-family: 'Lato';
+}
+div .imgwrapper {
+	height: 450px;
+	width: 100%;
+	}
+.imgwrapper img {
+	float: left;
+}
+.imgwrapper img:first-child {
+	margin-left: 9%;
+}
+.imgwrapper img:nth-child(n+2) {
+	margin-left: 7px;
+}
+.imgwrapper img:last-child {
+	margin-top: 7px;
+}
+.counter {
+	text-align: center;
+	font-size: 20px;
+}
+.counter span {
+	color: red;
+}
+main footer {
+	font-size: 16px;
+	margin: 4% 0;
+	text-align: center;
+}
+main footer textarea {
+	width: 60%;
+	font-size: 16px;
+	padding: 3px 10px;
+}
+main footer button {
+	border: none;
+	background-color: white;
+	padding: 5px;
+}
+.button-group {
+	width: 60%;
+}
+.bottom {
+	background-color: #f8f9fd;
+	height: 250px;
+	padding: 0 20%;
+}
+.bottom div {
+	padding-top: 100px;
+}
+.prev {
+	text-align: left;
+}
+.next {
+	text-align: right;
+}
+.bottom div p {
+	margin: 20px 0;
+}
+.bottom a {
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+}
+.bottom i {
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+}
